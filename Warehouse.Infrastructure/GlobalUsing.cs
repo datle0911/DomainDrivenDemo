@@ -1,0 +1,12 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Warehouse.Domain.AggregateModels.BasketAggregate;
+global using Warehouse.Domain.AggregateModels.BasketInconsistencyAggregate;
+global using Warehouse.Domain.AggregateModels.EmployeeAggregate;
+global using Warehouse.Domain.AggregateModels.GoodsIssueAggregate;
+global using Warehouse.Domain.AggregateModels.GoodsReceipAggregate;
+global using Warehouse.Domain.AggregateModels.ProductAggregate;
+global using Warehouse.Domain.AggregateModels.StockCardAggregate;
+global using Warehouse.Domain.AggregateModels.StorageSlotAggregate;
+global using Warehouse.Domain.SeedWork;
+global using MediatR;

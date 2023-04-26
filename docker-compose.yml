@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  warehouse.api:
+    image: ${DOCKER_REGISTRY-}warehouseapi
+    build:
+      context: .
+      dockerfile: Warehouse.Api/Dockerfile
